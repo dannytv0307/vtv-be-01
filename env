@@ -1,0 +1,36 @@
+# Application
+NODE_ENV=development
+PORT=3000
+APP_NAME=VTV Backend
+APP_VERSION=1.0.0
+
+# PostgreSQL
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_NAME=vtv_db
+DATABASE_USER=vtv-dev-1
+DATABASE_PASSWORD=abc@123
+DATABASE_SYNCHRONIZE=true
+DATABASE_LOGGING=false
+
+# Redis
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=abc@123
+REDIS_DB=0
+
+# JWT
+JWT_SECRET=your-super-secret-jwt-key
+JWT_EXPIRES_IN=24h
+
+PASSWORD_HASH_KEY=vtv-dev-key
+ACTIVE_TTL=1800
+
+# Email Configuration (Gmail)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=vu.tv0307@gmail.com
+SMTP_PASS=dasv tcxn zrab xgla
+SMTP_FROM=vu.tv0307@gmail.com
+FRONTEND_URL=http://localhost:5179
